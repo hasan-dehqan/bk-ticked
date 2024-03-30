@@ -1,0 +1,33 @@
+.swal-button-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.swal-button {
+    width: 170px;
+    color: #444;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.swal-title {
+    color: #0A2694;
+}
+
+.swal-text {
+    color: #fff;
+}
+
+.swal-modal {
+    position: absolute;
+    bottom: 54%;
+    right: 42%;
+    border: 3px solid #909085;
+    border-radius: 12px;
+    width: 242px;
+    height: 290px;
+    background: rgb(131, 58, 180);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}

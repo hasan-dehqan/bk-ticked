@@ -2,20 +2,23 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(45deg, red 0 50%, blue 50% 100%);
+
 }
 
-.wrapper {
+.content {
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
-    background: linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%);
+
 }
 
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* color: o; */
+
+
 }
 
 h1 {
@@ -29,10 +32,7 @@ h1 {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+
 }
 
 .items {
@@ -52,10 +52,7 @@ h3 {
     box-shadow: 0px 4px 16px rgba(17, 17, 26, 0.1), 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1);
     padding: 5px;
     min-width: 200px;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+
 }
 
 
@@ -66,27 +63,20 @@ h3 {
     align-items: center;
     gap: 50px;
     margin-bottom: 20px;
+    background: linear-gradient(90deg in hsl longer hue, red, blue);
 }
 
 button {
     width: 50px;
     height: 40px;
-    background-color: #fff;
     border-radius: 5px;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
 }
 
 button:hover {
-    border-radius: 10px;
     cursor: pointer;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+
 }
+
 
 .nice-b {
     width: 300px;
@@ -98,10 +88,7 @@ button:hover {
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+
 }
 
 .premium-a {

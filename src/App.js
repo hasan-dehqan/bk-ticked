@@ -1,13 +1,12 @@
-import React from 'react';
-import MyChair from "./components/MyChair"
-import './App.css';
+import React from "react";
+import MyChair from "./components/MyChair";
+import "./App.css";
 function App() {
-    return (
-        <>
-            <MyChair />
-        </>
-
-    );
+  return (
+    <>
+      <MyChair />
+    </>
+  );
 }
 
 export default App;
